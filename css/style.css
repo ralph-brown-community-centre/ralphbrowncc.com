@@ -312,7 +312,10 @@ div.contact-div{
 /* Programs Page style */
 
 .card{
-	background: #fff;
+	background-color: rgba(5, 5, 0, 0.4);
+	background: rgba(5, 5, 0, 0.4);
+
+	color: #019649;
 	width: 100%;
 	/*padding: 2%;*/
 	/*min-height: 200px;*/
@@ -331,9 +334,16 @@ div.contact-div{
 }
 
 div.card-header{
-	color: #fff;
-	background-color: rgba(61, 2, 191, 0.2);
-	background: rgba(61, 2, 191, 0.2);;
+	color: #D1A100;
+	background-color: none;
+}
+
+.card-header h5{
+	font-weight: bold;
+}
+
+.card-text{
+	margin-top: 12px;
 }
 
 .calendar-program{
