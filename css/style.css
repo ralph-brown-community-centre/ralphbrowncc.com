@@ -153,7 +153,15 @@ img.rbcc-logo{
 }
 .service h2 {
   font-weight: 400;
+  color:#D1A100 ;
+
 }
+
+.service p{
+	color: #019649;
+}
+
+
 .service.col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
@@ -163,7 +171,9 @@ img.rbcc-logo{
 	height: 100px;
 	width: 100px;
 	margin-bottom: 1rem;
-	color: #615286;
+	color: #DF234D;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222); 
 }
 
 /* Feature Section Style */
@@ -181,11 +191,10 @@ img.rbcc-logo{
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
+  color: #D1A100;
 }
 
 .col-md-7{
-	background: #f1f1f1;
-	color: #3f3f3f;
 	
 	border: 1px solid #fff;
 	padding: 60px 60px 20px 60px;
@@ -194,12 +203,20 @@ img.rbcc-logo{
 	outline: 1px dashed #98abb9;
     outline-offset: -5px;
 
+    background-color: rgba(5, 5, 0, 0.4);
+	background: rgba(5, 5, 0, 0.4);
+	color: #019649;
+
+}
+
+.col-md-7 ul li{
+	color: #D0D3D4 ;
 }
 
 /*Footer Section Style*/
 
 footer{
-	border-top: 1px solid #000;
+	border-top: 2px solid #D1A100;
 	color: #fff;
 	background: linear-gradient(45deg, #162C51, #03588B, #162C51);
 	box-shadow: 0 10px 10px -10px #8c8b8b inset;
@@ -235,11 +252,15 @@ footer h5{
 	font-weight: bold;
 }
 
-ul.footer-links li a{
+ul.footer-links li a,
+ul.footer-add li a,
+.footer-contact h6 a{
 	color: #fff;
 }
 
-ul.footer-links li a:hover{
+ul.footer-links li a:hover,
+ul.footer-add li a:hover,
+.footer-contact h6 a:hover{
 	text-decoration: none;
 	color: #ab2521;
 }
@@ -425,21 +446,6 @@ h2.mini-headings{
 
  	outline: 1px dashed #98abb9;
  	outline-offset: -5px;
- 
- /*background-color: #556068;*/
-/*padding: 2%;*/
- /*margin: 100px auto;*/
-
- /*background-color: rgba(61, 2, 191, 0.2);
-	background: rgba(61, 2, 191, 0.2);*/
- 
- /*shadow*/
-/* -webkit-box-shadow: 2px 2px 2px #000;
- -moz-box-shadow: 2px 2px 2px #000;
- box-shadow: 2px 2px 2px #000;*/
-
-
-/*  background-color: #ab2521;*/
 
  	background-color: #DF234D;
 
@@ -448,33 +454,14 @@ h2.mini-headings{
 }
 
 
-h2.mini-headings:after, h2.mini-headings:before {
- /* content: '\1F680';
-  display: inline-block;
-  margin: 0 0.2em;
-  font-size: 1em;*/
+/*h2.mini-headings:after, h2.mini-headings:before {
 	content: "";
 	position: absolute;
 	bottom: 0;
 	width: 0;
 	height: 0;
      
-}
-
-
-h2.mini-headings:after{
-      left: 0;
-      border-left: 30px solid white;
-      border-top: 30px solid transparent;
-      border-bottom: 30px solid transparent;
-	} 
-
-	h2.mini-headings:before {
-	    right: 0;
-      	border-right: 30px solid white;
-      	border-top: 30px solid transparent;
-      	border-bottom: 30px solid transparent;
-	}
+}*/
 
 
 .margin-top{
@@ -549,11 +536,7 @@ ul li{
 hr{
 	border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	/*border-top: 1px dashed red;*/
-	/*height: 6px;*/
-	/*background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;*/
-    /*border: 0;*/
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #D1A100, rgba(0, 0, 0, 0));
 
 }
 
@@ -564,8 +547,8 @@ hr:after {
   top: -25px; 
   left: 50px; 
   padding: 0 3px; 
-  /*background: #f0f0f0; 
-*/  color: #8c8b8b; 
+
+  color: #D1A100;
   font-size: 28px; 
 }
 
@@ -579,6 +562,9 @@ hr:after {
     user-select: none;
 }
 
+
+/********** BIG SCREEN SIZE ***********/
+
 @media (min-width: 768px) {
 
 	.bd-placeholder-img-lg {
@@ -590,6 +576,8 @@ hr:after {
 	}
 
 }
+
+/********* MOBILE SIZE **************/
 
 @media (max-width: 768px){
 
