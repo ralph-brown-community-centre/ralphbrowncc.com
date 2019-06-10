@@ -70,7 +70,7 @@ img.rbcc-logo{
 /* Carousel style */
 
 .carousel {
-
+	border-bottom: 2px solid #D1A100;
 	margin-bottom: 4rem;
 }
 
@@ -92,8 +92,7 @@ img.rbcc-logo{
 
 .slideImage{
 	z-index: -1;
-	opacity: 0.9;
-  	filter: alpha(opacity=90);
+	filter: brightness(70%);
 }
 
 .carousel-caption{
@@ -101,6 +100,37 @@ img.rbcc-logo{
   	background-color: rgba(0, 0, 0, 0.5);
 	background: rgba(0, 0, 0, 0.5);
 	color: rgba(0, 0, 0, 0.5);
+
+	border-top: 3px solid #E5E7E9  ;
+  	border-bottom: 3px solid #E5E7E9  ;	
+}
+
+.carousel-caption h6{
+	color: #D0D3D4  ;
+	font-size: 1.1em;
+}
+
+.carousel-caption p{
+	font-size: 1.1em;
+	color: #019649;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption {
+	opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+
+.carousel .carousel-inner .carousel-item.active .carousel-caption{
+	 opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
 }
 
 /*	Services Section Style */
@@ -450,6 +480,12 @@ h2.mini-headings:after{
 	border:offset 2px #403759;
 }
 
+.btn-color{
+	color: #fff;
+	border: 2px solid #D1A100;
+	background-color: #03588B;
+}
+
 .col-md-3{
 	margin-top: 2%;
 }
@@ -475,10 +511,15 @@ h2.mini-headings:after{
 h1{
 	font-weight: bold;
 	text-shadow: 2px 2px 2px #000;
+	font-size: 2.7em;
 }
 
 h2{
 	font-weight: bold;
+}
+
+h6{
+	font-size: 1em;
 }
 
 main{
@@ -549,6 +590,15 @@ hr:after {
 		position: static;
 	}
 
+	.navbar-brand{
+		-webkit-border-bottom-right-radius: 50px;
+		-webkit-border-bottom-left-radius: 50px;
+		-moz-border-radius-bottomright: 50px;
+		-moz-border-radius-bottomleft: 50px;
+		border-bottom-right-radius: 50px;
+		border-bottom-left-radius: 50px;
+	}
+
 	.navbar{
 		padding: 0 7% 1% 7%;
 		top: -10px;
@@ -558,31 +608,28 @@ hr:after {
 		height: 400px;
 	}
 
-	/*.carousel-inner > .carousel-item > img {
-		position: absolute;
-	  top: 50%;
-	  left: 50%;
-	  -webkit-transform: translate(-50%, -50%);
-	  -ms-transform: translate(-50%, -50%);
-	  transform: translate(-50%, -50%);
-	  max-height: 400px;
-	  width: auto;
-	}
-*/
-
 	.carousel-caption{
 		padding: 3%;
 	}
 
 
-
-
 	h1{
-		font-size: 1.7em;
+		font-size: 1.5em;
 	}
 
 	h2.mini-headings{
 		font-size: 1.6em;
+	}
+
+	h6{
+		font-size: 1.2em;
+	}
+
+	.carousel-caption h6{
+		font-size: 1em;
+	}
+	.carousel-caption p{
+		font-size: 1em;
 	}
 
 	.partner-logo{
