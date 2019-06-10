@@ -2,13 +2,10 @@
 
 .navbar{
 	padding: 3% 7%;
-	/*background-color: #a6352d;*/
-	/*background-color: #ab2521;*/
-	/*background-color: #403759;*/
-	background: linear-gradient(45deg, #403759, #ab2521);
+	background: linear-gradient(45deg, #162C51, #03588B, #162C51);
 	position: relative;
 	min-height: 70px;
-
+	border-bottom: 2px solid #D1A100;
 }
 
 .navbar-brand{
@@ -16,20 +13,28 @@
 	position: absolute;
 	top: 0;
 	left: 5%;
-	padding: 1.1%;
-	background-color: #ab2521;
-	/*background-color: #DF234D;*/
+	padding-top: 1%;
+	padding-right: 2%; 
+	padding-bottom:1.7%;
+	padding-left: 1%;
+	background-color: #CC2A36;
 	border-bottom-right-radius: 5px ;
 	border-bottom-left-radius: 5px ;
 	z-index: 1;
-	/*border: 1px solid #403759;*/
-	/*border:outset 3px #403759;*/
-	border-right: outset 3px #403759;
-	border-bottom: outset 3px #403759;
-	border-left: outset 3px #403759;
 
-	outline: 1px dashed #98abb9;
-    outline-offset: -5px;
+	border-right: outset 3px #D1A100;
+	border-bottom: outset 3px #D1A100;
+	border-left: outset 3px #784212;
+
+	-webkit-border-bottom-right-radius: 50px;
+	-webkit-border-bottom-left-radius: 50px;
+	-moz-border-radius-bottomright: 50px;
+	-moz-border-radius-bottomleft: 50px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222); 
 }
 
 .dropdown-menu{
@@ -45,7 +50,8 @@ button.navbar-toggler {
 
 img.rbcc-logo{
 	margin: 8px;
-  /*fill: white;*/
+  	-webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222); 
 }
 
 .text-secondary{
