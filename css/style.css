@@ -300,13 +300,18 @@ ul.footer-add li a:hover,
 
 /*Rent Page style for calendar*/
 
-div.calendar-rental{
-	padding: 2%;
+.hall-info h3{
+	color: #D1A100;
 }
 
-div.contact-div{
-	padding: 3%;
-	text-align: center;
+.hall-info p,
+.hall-info ul li{
+	color: #019649;
+}
+
+
+div.calendar-rental{
+	padding: 2%;
 }
 
 /* Programs Page style */
@@ -357,6 +362,17 @@ div.card-header{
 
 /* Contact Page Style */
 
+div.contact-div{
+	padding: 3%;
+	text-align: center;
+	color: #019649;
+}
+
+.contact-div h5,
+.contact-div h6{
+	color: #D1A100;
+}
+
 .contact-form{
 	border:1px solid #000;
 	padding: 3%;
@@ -365,8 +381,27 @@ div.card-header{
     outline-offset: -5px;
 }
 
+/* Donate Style */
+
+div.donate-info p{
+	
+	color: #D1A100;
+}
+
+
 .donate-img{
 	width: 100%;
+}
+
+
+/* Opportunity Page Style */
+
+.opportunity-div h5{
+	color: #fff;
+}
+
+.opportunity-div .card-body h5{
+	color: #D1A100;
 }
 
 .contact-form li{
@@ -410,8 +445,22 @@ button.footer-button{
 
 /* About Page */
 
+.aboutUs-info p{
+	color: #019649;
+}
+
 .member{
 	text-align: center;
+}
+
+.member h3{
+	color: #D1A100;
+}
+
+.member p,
+.member ul li{
+	color: #019649;
+
 }
 
 #partners{
