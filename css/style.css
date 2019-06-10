@@ -1,3 +1,15 @@
+/* Body Styles */
+
+body{
+
+	background-image: url("../images/background3.jpg");
+  	height: 100%; 
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+}
+
 /* Navigation bar styles */
 
 .navbar{
@@ -188,13 +200,8 @@ img.rbcc-logo{
 
 footer{
 	border-top: 1px solid #000;
-	/*background-color: #615286;*/
-	   /* background: linear-gradient(45deg, #ab2521, #403759); */
-	  /* background: linear-gradient(45deg, #1d27b7, #bc8ab5, #403759);*/
-	   background: linear-gradient(180deg, #403759, #bc8ab5, #ab2521);
-	 /* background: linear-gradient(180deg, #ab2521, #bc8ab5, #403759);*/
 	color: #fff;
-	
+	background: linear-gradient(45deg, #162C51, #03588B, #162C51);
 	box-shadow: 0 10px 10px -10px #8c8b8b inset;
 	padding: 3% 5%;
 }
@@ -209,6 +216,8 @@ footer{
 
 	color: #fff;
 	text-shadow: 0 10px 10px -10px #8c8b8b offset;
+	-webkit-filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #222); 
 }
 
 .footer-social a:hover{
