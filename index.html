@@ -1,295 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-	<!-- Tab browser details -->
-	<title>Ralph Brown Community Centre</title>
-    <link rel="shortcut icon" href="images/logoRocketV1.png">
+    <!-- Tab browser details -->
+    <title>Ralph Brown Community Centre</title>
+    <link rel="shortcut icon" href="images/logoRocketV1.png" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
 
     <!-- ICON LINK at fontawesome.com -->
 
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+      integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- CSS Link -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark shadow">
+        <a class="navbar-brand shadow" href="index.html">
+          <img
+            src="images/logoWhiteV2.png"
+            width="150"
+            height="70"
+            class="rbcc-logo d-inline-block align-top"
+            alt="RBCC Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                id="navbarDropdownProgram"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Programs</a
+              >
+              <div
+                class="dropdown-menu"
+                arial-labelledby="navbarDropdownProgram"
+              >
+                <a class="dropdown-item" href="program.html"
+                  >&#10023; Free Play</a
+                >
+                <a class="dropdown-item" href="program.html#gap"
+                  >&#10023; GAP Inc.</a
+                >
+                <a class="dropdown-item" href="program.html#speak_cree"
+                  >&#10023; Speak Cree Class</a
+                >
+                <a class="dropdown-item" href="program.html#bike_camp"
+                  >&#10023; Bike Camp</a
+                >
+                <a class="dropdown-item" href="program.html#skating"
+                  >&#10023; Skating</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="program.html#calendar_program"
+                  >Calendar &amp; Events</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rental.html">Rentals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                id="navbarDropdownContact"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Contact Us</a
+              >
+              <div
+                class="dropdown-menu"
+                arial-labelledby="navbarDropdownContact"
+              >
+                <a class="dropdown-item" href="contact.html"
+                  >&#10023; Direction/Location</a
+                >
+                <a class="dropdown-item" href="contact.html#contact_message"
+                  >&#10023; Message Us</a
+                >
+                <a class="dropdown-item" href="opportunity.html"
+                  >&#10023; Opportunity</a
+                >
+                <a class="dropdown-item" href="donate.html"
+                  >&#10023; Donation</a
+                >
+                <div class="dropdown-divider"></div>
+                <a
+                  class="text-secondary"
+                  href="https://www.facebook.com/RalphBrownCC/"
+                  ><i class="fab fa-facebook-square fa-2x nav-icon"></i
+                ></a>
+                <a
+                  class="text-secondary"
+                  href="https://www.youtube.com/channel/UCsHaOJZ_HgLPu70jaIMXGxQ"
+                  ><i class="fab fa-youtube fa-2x nav-icon"></i
+                ></a>
+                <a
+                  class="text-secondary"
+                  href="https://www.instagram.com/ralphbrowncc/"
+                  ><i class="fab fa-instagram fa-2x nav-icon"></i
+                ></a>
+                <a
+                  class="text-secondary"
+                  href="https://twitter.com/RalphBrownCC/"
+                  ><i class="fab fa-twitter fa-2x nav-icon"></i
+                ></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-</head>
-<body>
+    <main role="main">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-	<header>
-		<nav class="navbar navbar-expand-md navbar-dark shadow">
-			<a class="navbar-brand shadow " href="index.html">
-				<img src="images/logoWhiteV2.png" width="150" height="70" class="rbcc-logo d-inline-block align-top " alt="RBCC Logo">
-			</a>
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownProgram" role="button" aria-haspopup="true" aria-expanded="false">Programs</a>
-						<div class="dropdown-menu" arial-labelledby="navbarDropdownProgram">					
-							<a class="dropdown-item" href="program.html">&#10023; Free Play</a>
-							<a class="dropdown-item" href="program.html#gap">&#10023; GAP Inc.</a>
-							<a class="dropdown-item" href="program.html#speak_cree">&#10023; Speak Cree Class</a>
-							<a class="dropdown-item" href="program.html#bike_camp">&#10023; Bike Camp</a>
-							<a class="dropdown-item" href="program.html#skating">&#10023; Skating</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="program.html#calendar_program">Calendar &amp; Events</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="rental.html">Rentals</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">About Us</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownContact" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
-						<div class="dropdown-menu" arial-labelledby="navbarDropdownContact">
-							<a class="dropdown-item" href="contact.html">&#10023; Direction/Location</a>
-							<a class="dropdown-item" href="contact.html#contact_message">&#10023; Message Us</a>
-							<a class="dropdown-item" href="opportunity.html">&#10023; Opportunity</a>
-							<a class="dropdown-item" href="donate.html">&#10023; Donation</a>
-							<div class="dropdown-divider"></div>
-								<a class="text-secondary" href="https://www.facebook.com/RalphBrownCC/"><i class="fab fa-facebook-square fa-2x nav-icon"></i></a>
-								<a class="text-secondary" href="https://www.youtube.com/channel/UCsHaOJZ_HgLPu70jaIMXGxQ"><i class="fab fa-youtube fa-2x nav-icon "></i></a>
-								<a class="text-secondary" href="https://www.instagram.com/ralphbrowncc/"><i class="fab fa-instagram fa-2x nav-icon"></i></a>
-								<a class="text-secondary" href="https://twitter.com/RalphBrownCC/"><i class="fab fa-twitter fa-2x nav-icon"></i></a>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="img-fluid slideImage"
+              width="100%"
+              height="auto"
+              src="./images/rbcc_slide5.jpg"
+            />
+            <div class="container">
+              <div class="carousel-caption text-light shadow-lg">
+                <h1>Welcome to Ralph Brown Community Centre</h1>
+                <h6>
+                  Recreational Center | Nonprofit Organization | Community
+                  Organization
+                </h6>
+                <p>
+                  <a
+                    class="btn btn-lg btn-color shadow-lg"
+                    href="about.html"
+                    role="button"
+                    >About Us</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="img-fluid slideImage"
+              width="100%"
+              height="auto"
+              src="./images/rbcc_slide3.jpg"
+            />
+            <div class="container">
+              <div class="carousel-caption text-light shadow-lg">
+                <h1>What we offer for everyone</h1>
+                <p>
+                  Ralph Brown Community Centre is a safe and fun place for all!
+                  We have different programs to offer for our community. Check
+                  out our programs.
+                </p>
+                <p>
+                  <a
+                    class="btn btn-md btn-color shadow-lg"
+                    href="program.html"
+                    role="button"
+                    >Programs and Events</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="img-fluid slideImage"
+              width="100%"
+              height="auto"
+              src="./images/rbcc_slide4.jpg"
+            />
+            <div class="container">
+              <div class="carousel-caption text-light shadow-lg">
+                <h1>Hall Rentals</h1>
+                <p>
+                  Need enough space to celebrate with family and friends? Check
+                  out our place.
+                </p>
+                <p>
+                  <a
+                    class="btn btn-md btn-color shadow-lg"
+                    href="rental.html"
+                    role="button"
+                    >Browse gallery</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 
-	</header>
+      <section class="container service">
+        <div class="row">
+          <div class="col-lg-4">
+            <i class="fas fa-hands-helping icon"></i>
+            <h2>Volunteer</h2>
+            <p>
+              Help us to make positive difference and be part of our community.
+              We welcome all volunteers of all ages. Get involved.
+            </p>
+            <p>
+              <a
+                class="btn btn-color shadow"
+                href="opportunity.html"
+                role="button"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-hand-holding-heart icon"></i>
+            <h2>Donate</h2>
+            <p>
+              Your generosity is greatly appreciated. "Giving is not just about
+              making donation, it's about making a difference." -Kathy Calvin
+            </p>
+            <p>
+              <a class="btn btn-color shadow" href="donate.html" role="button"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-map-marked-alt icon"></i>
+            <h2>Location</h2>
+            <p>
+              Everyone is welcome. Come visit and contact us. Here is where you
+              can find us and our contact information.
+            </p>
+            <p>
+              <a class="btn btn-color shadow" href="contact.html" role="button"
+                >View details &raquo;</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
 
-	<main role="main">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			    <li data-target="#myCarousel" data-slide-to="1"></li>
-			    <li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
-		
-			<div class="carousel-inner">
-			  <div class="carousel-item active">
-			    <img class="img-fluid slideImage" width="100%" height="auto" src="./images/rbcc_slide5.jpg">
-			    <div class="container">
-			      <div class="carousel-caption text-light shadow-lg">
-			        <h1>Welcome to Ralph Brown Community Centre</h1>
-			        <h6>Recreational Center | Nonprofit Organization | Community Organization</h6>
-			        <p><a class="btn btn-lg btn-color shadow-lg" href="about.html" role="button">About Us</a></p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="carousel-item">
-			    <img class="img-fluid slideImage" width="100%" height="auto" src="./images/rbcc_slide3.jpg">
-			    <div class="container">
-			      <div class="carousel-caption text-light shadow-lg">
-			        <h1>What we offer for everyone</h1>
-			        <p>Ralph Brown Community Centre is a safe and fun place for all! We have different programs to offer for our community. Check out our programs.</p>
-			        <p><a class="btn btn-md btn-color shadow-lg" href="program.html" role="button">Programs and Events</a></p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="carousel-item">
-			    	<img class="img-fluid slideImage" width="100%" height="auto" src="./images/rbcc_slide4.jpg">
-			    <div class="container">
-			      <div class="carousel-caption text-light shadow-lg">
-			        <h1>Hall Rentals</h1>
-			        <p>Need enough space to celebrate with family and friends? Check out our place.</p>
-			        <p><a class="btn btn-md btn-color shadow-lg" href="rental.html" role="button">Browse gallery</a></p>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-			<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-		      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		      <span class="sr-only">Previous</span>
-		    </a>
-		    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-		      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		      <span class="sr-only">Next</span>
-		    </a>
-		</div>
+      <hr class="feature-divider" />
 
-	
-		<section class="container service">
-			
-			<div class="row">
-		      <div class="col-lg-4">
-		        <i class="fas fa-hands-helping icon"></i>
-		        <h2>Volunteer</h2>
-		        <p>Help us to make positive difference and be part of our community. We welcome all volunteers of all ages. Get involved.</p>
-		        <p><a class="btn btn-color shadow" href="opportunity.html" role="button">View details &raquo;</a></p>
-		      </div>
-		      <div class="col-lg-4">
-		        <i class="fas fa-hand-holding-heart icon"></i>
-		        <h2>Donate</h2>
-		        <p>Your generosity is greatly appreciated. "Giving is not just about making donation, it's about making a difference." -Kathy Calvin</p>
-		        <p><a class="btn btn-color shadow" href="donate.html" role="button">View details &raquo;</a></p>
-		      </div>
-		      <div class="col-lg-4">
-		        <i class="fas fa-map-marked-alt icon"></i>
-		        <h2>Location</h2>
-		        <p>Everyone is welcome. Come visit and contact us. Here is where you can find us and our contact information.</p>
-		        <p><a class="btn btn-color shadow" href="contact.html" role="button">View details &raquo;</a></p>
-		      </div>
-		    </div>
-			
-		</section>	
+      <h2 class="mini-headings">Featured Programs</h2>
 
-		    <hr class="feature-divider">
-		    
-		    <h2 class="mini-headings">Website Under Construction</h2>
-		    
-		    <section class="container margin-top">
-               
-                <h4 class="text-center text-warning">Sorry, we're still working on this site. </h4>
-                <h5 class="text-center text-success">Please contact us through <a href="mailto:manager@ralphbrowncc.com">&#9993; email </a> and check our <a href="https://www.facebook.com/RalphBrownCC/">facebook <i class="fab fa-facebook-square"></i></a> for updates.</h5>
-           
-            </section>
-		    
-		    
-		    <hr class="feature-divider">
+      <section class="container margin-top">
+        <div class="row feature">
+          <div class="col-md-7">
+            <h2 class="feature-heading">
+              &#127936; Free Play
+              <span class="text-muted">Drop In Program</span>
+            </h2>
+            <p class="lead">
+              After school drop-in program is for children between ages of 6-12
+              years old. We provide actvities such as arts and craft,
+              indoor/outdoor games, fieldtrips and free snack for children. It
+              is run by City Of Winnipeg.
+            </p>
+            <ul>
+              <li>&#128338; Hours of Operation</li>
+              <li>Mon 3:15pm-6:15pm</li>
+              <li>Tue 3:15pm-6:15pm</li>
+              <li>Wed 3:15pm-6:15pm</li>
+              <li>Thu 3:15pm-6:15pm</li>
+              <li>Fri 3:15pm-6:15pm</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="images/stressball1.jpg"
+              class="program-image img-fluid mx-auto feature-image"
+            />
+          </div>
+        </div>
 
-			<h2 class="mini-headings">Featured Programs</h2>
+        <hr class="feature-divider" />
 
-		<section class="container margin-top">
+        <div class="row feature">
+          <div class="col-md-7 order-md-2">
+            <h2 class="feature-heading">
+              &#127912; GraffitiArt Programming Inc.
+              <span class="text-muted">Art and Dance Club</span>
+            </h2>
+            <p class="lead">
+              We partner with GAP to allow our youth to explore their creative
+              side in a fun and safe way!
+            </p>
+            <ul>
+              <li>&#128340; Hours of Operation</li>
+              <li>Tue 4:30pm-6:00pm</li>
+              <li>Thu 4:00pm-6:00pm</li>
+            </ul>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              src="images/gapImg.jpg"
+              class="program-image img-fluid mx-auto feature-image"
+            />
+          </div>
+        </div>
 
-			<div class="row feature">
-		      <div class="col-md-7">
-		        <h2 class="feature-heading">&#127936; Free Play <span class="text-muted">Drop In Program</span></h2>
-		        <p class="lead">After school drop-in program is for children between ages of 6-12 years old. We provide actvities such as arts and craft, indoor/outdoor games, fieldtrips and free snack for children. It is run by City Of Winnipeg.</p>
-		        <ul>
-		        	<li>&#128338; Hours of Operation</li>
-		        	<li>Mon 3:00pm-6:00pm</li>
-		        	<li>Tue 3:00pm-6:00pm</li>
-		        	<li>Wed 3:00pm-6:00pm</li>
-		        	<li>Thu 3:00pm-6:00pm</li>
-		        	<li>Fri 3:00pm-6:00pm</li>
-		        </ul>
-		      </div>
-		      <div class="col-md-5">
-		        <img src="images/stressball1.jpg" class="program-image img-fluid mx-auto feature-image">
-		      </div>
-		    </div>
+        <hr class="feature-divider" />
 
-		    <hr class="feature-divider">
+        <div class="row feature">
+          <div class="col-md-7">
+            <h2 class="feature-heading">
+              &#128218; Speak Cree <span class="text-muted"> </span>
+            </h2>
+            <p class="lead">
+              Free language opportunity for youth and adults. Teach or Learn how
+              to speak Cree. Organized by AYO! (Aboriginal Youth Opportunities).
+            </p>
+            <ul>
+              <li>&#128353; Hours of Operation</li>
+              <li>Tue 6:30pm-8:00pm</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="images/sCree.jpg"
+              class="program-image img-fluid mx-auto feature-image"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
 
-		    <div class="row feature">
-		      <div class="col-md-7 order-md-2">
-		        <h2 class="feature-heading">&#127912; GraffitiArt Programming Inc. <span class="text-muted">Art and Dance Club</span></h2>
-		        <p class="lead">We partner with GAP to allow our youth to explore their creative side in a fun and safe way!</p>
-		        <ul>
-		        	<li>&#128340; Hours of Operation</li>
-		        	<li>Tue 4:30pm-6:00pm</li>
-		        	<li>Thu 4:00pm-6:00pm</li>
-		        </ul>
-		      </div>
-		      <div class="col-md-5 order-md-1">
-		        <img src="images/gapImg.jpg" class="program-image img-fluid mx-auto feature-image">
-		      </div>
-		    </div>
+    <footer>
+      <div class="footer-social">
+        <h4 class="margin-bot">Follow Us</h4>
 
-		    <hr class="feature-divider">
+        <span>
+          <a href="https://www.facebook.com/RalphBrownCC/"
+            ><i class="fab fa-facebook-square fa-3x"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCsHaOJZ_HgLPu70jaIMXGxQ"
+            ><i class="fab fa-youtube fa-3x"></i
+          ></a>
+          <a href="https://www.instagram.com/ralphbrowncc/"
+            ><i class="fab fa-instagram fa-3x"></i
+          ></a>
+          <a href="https://twitter.com/RalphBrownCC/"
+            ><i class="fab fa-twitter fa-3x"></i
+          ></a>
+        </span>
+      </div>
 
-		    <div class="row feature">
-		      <div class="col-md-7">
-		        <h2 class="feature-heading">&#128218; Speak Cree <span class="text-muted"> </span></h2>
-		        <p class="lead">Free language opportunity for youth and adults. Teach or Learn how to speak Cree. Organized by AYO! (Aboriginal Youth Opportunities).</p>
-		        <ul>
-		        	<li>&#128353; Hours of Operation</li>
-		        	<li>Tue 6:30pm-8:00pm</li>
-		        </ul>
-		      </div>
-		      <div class="col-md-5">
-		        <img src="images/sCree.jpg" class="program-image img-fluid mx-auto feature-image">
-		      </div>
-		    </div>
+      <section class="row">
+        <div class="col-md-3 margin-top footer-logo">
+          <a href="http://ralphbrowncc.com"
+            ><img
+              src="images/rbcc_logo.jpg"
+              width="auto"
+              height="190"
+              class="border border-dark shadow rbcc-logo1 margin-top"
+          /></a>
+        </div>
 
-		</section>
+        <div class="col-md-4 footer-contact">
+          <h5>Contact Information</h5>
+          <h6>
+            &#x1F680;
+            <a href="http://ralphbrowncc.com"
+              >Ralph Brown Community Centre Inc.</a
+            >
+          </h6>
+          <ul class="footer-add">
+            <li>
+              &#128205;<a href="https://goo.gl/maps/ZPTuVQyLDAGoE56M7">
+                520 Machray Avenue</a
+              >
+            </li>
+            <li>&#128506; Winnipeg, MB</li>
+            <li>&#127758; R2W 4Y1, Canada</li>
+            <li>&phone;<a href="tel:+12045863149">+1(204)586-3149</a></li>
+            <li>
+              &#9993;<a href="mailto:manager@ralphbrowncc.com"
+                >manager@ralphbrowncc.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2 footer-sites">
+          <h5>Links</h5>
+          <ul class="footer-links">
+            <li>&#128204;<a href="index.html"> Home</a></li>
+            <li>&#128204;<a href="program.html"> Programs</a></li>
+            <li>&#128204;<a href="rental.html"> Rentals</a></li>
+            <li>&#128204;<a href="about.html"> About Us</a></li>
+            <li>&#128204;<a href="contact.html"> Contact Us</a></li>
+            <li>
+              &#128204;<a href="program.html#calendar_program">
+                News &amp; Events</a
+              >
+            </li>
+            <li>&#128204;<a href="donate.html"> Donation</a></li>
+            <li>&#128204;<a href="opportunity.html"> Opportunity</a></li>
+            <li>&#128204;<a href="#"> Site Map</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Message Us</h5>
+          <p>
+            Please send an email to
+            <a href="mailto:manager@ralphbrowncc.com"
+              >manager@ralphbrowncc.com</a
+            >
+            or contact us
+            <a href="https://www.facebook.com/RalphBrownCC/">on Facebook</a>
+          </p>
+        </div>
+      </section>
 
+      <section>
+        <hr />
+        <div class="cRight">
+          Copyright &copy; 2019 by <a href="index.html">RalphBrownCC</a> All
+          right reserved.
+        </div>
+      </section>
+    </footer>
 
-
-
-	</main>
-
-	<footer>
-		<div class="footer-social">
-			<h4 class="margin-bot">Follow Us</h4>
-
-				<span>
-					<a href="https://www.facebook.com/RalphBrownCC/"><i class="fab fa-facebook-square fa-3x"></i></a>
-					<a href="https://www.youtube.com/channel/UCsHaOJZ_HgLPu70jaIMXGxQ"><i class="fab fa-youtube fa-3x"></i></a>
-					<a href="https://www.instagram.com/ralphbrowncc/"><i class="fab fa-instagram fa-3x"></i></a>
-					<a href="https://twitter.com/RalphBrownCC/"><i class="fab fa-twitter fa-3x"></i></a>
-				</span>			
-		</div>
-		
-
-		<section class="row">
-			<div class="col-md-3 margin-top footer-logo">
-				<a href="http://ralphbrowncc.com"><img src="images/rbcc_logo.jpg" width="auto" height="190" class="border border-dark shadow rbcc-logo1 margin-top"></a>
-			</div>
-
-			<div class="col-md-4 footer-contact">
-				<h5>Contact Information</h5>
-				<h6>&#x1F680; <a href="http://ralphbrowncc.com">Ralph Brown Community Centre Inc.</a></h6>
-				<ul class="footer-add">
-					<li>&#128205;<a href="https://goo.gl/maps/ZPTuVQyLDAGoE56M7"> 520 Machray Avenue</a></li>
-					<li>&#128506; Winnipeg, MB</li>
-					<li>&#127758; R2W 4Y1, Canada</li>
-					<li>&phone;<a href="tel:+12045863149">+1(204)586-3149</a></li>
-					<li>&#9993;<a href="mailto:manager@ralphbrowncc.com">manager@ralphbrowncc.com</a></li>
-				</ul>
-				
-			</div>
-			<div class="col-md-2 footer-sites">
-				<h5>Links</h5>
-				<ul class="footer-links">
-					<li>&#128204;<a href="index.html"> Home</a></li>
-					<li>&#128204;<a href="program.html"> Programs</a></li>	
-					<li>&#128204;<a href="rental.html"> Rentals</a></li>
-					<li>&#128204;<a href="about.html"> About Us</a></li>
-					<li>&#128204;<a href="contact.html"> Contact Us</a></li>
-					<li>&#128204;<a href="program.html#calendar_program"> News &amp; Events</a></li>
-					<li>&#128204;<a href="donate.html"> Donation</a></li>
-					<li>&#128204;<a href="opportunity.html"> Opportunity</a></li>
-					<li>&#128204;<a href="#"> Site Map</a></li>
-				</ul>
-			</div>
-			<div class="col-md-3">
-				<h5>Message Us</h5>
-				<p>Please send an email to <a href="mailto:manager@ralphbrowncc.com">manager@ralphbrowncc.com</a> or contact us <a href="https://www.facebook.com/RalphBrownCC/">on Facebook</a></p>
-			</div>
-		</section>
-
-		<section>
-			
-			<hr/>
-			<div class="cRight">
-				Copyright &copy; 2019 by <a href="index.html">RalphBrownCC</a> All right reserved.
-			</div>
-		</section>
-		
-	</footer>
-
-	<!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
