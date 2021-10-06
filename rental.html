@@ -1,285 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-	<!-- Tab browser details -->
-	<title>Ralph Brown Community Centre</title>
-    <link rel="shortcut icon" href="images/logoRocketV1.png">
+    <!-- Tab browser details -->
+    <title>Ralph Brown Community Centre</title>
+    <link rel="shortcut icon" href="images/logoRocketV1.png" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
 
     <!-- ICON LINK at fontawesome.com -->
 
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+      integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- CSS Link -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!-- JQuery Fotorama -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
-    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 33 KB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css"
+      rel="stylesheet"
+    />
+    <!-- 3 KB -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <!-- 16 KB -->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark shadow">
+        <a class="navbar-brand shadow" href="index.html">
+          <img
+            src="images/logoWhiteV2.png"
+            width="150"
+            height="70"
+            class="rbcc-logo d-inline-block align-top"
+            alt="RBCC Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                id="navbarDropdownProgram"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Programs</a
+              >
+              <div
+                class="dropdown-menu"
+                arial-labelledby="navbarDropdownProgram"
+              >
+                <a class="dropdown-item" href="program.html"
+                  >&#10023; Free Play</a
+                >
+                <a class="dropdown-item" href="program.html#gap"
+                  >&#10023; GAP Inc.</a
+                >
+                <a class="dropdown-item" href="program.html#speak_cree"
+                  >&#10023; Speak Cree Class</a
+                >
+                <a class="dropdown-item" href="program.html#bike_camp"
+                  >&#10023; Bike Camp</a
+                >
+                <a class="dropdown-item" href="program.html#skating"
+                  >&#10023; Skating</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="program.html#calendar_program"
+                  >Calendar &amp; Events</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="rental.html">Rentals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                id="navbarDropdownContact"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Contact Us</a
+              >
+              <div
+                class="dropdown-menu"
+                arial-labelledby="navbarDropdownContact"
+              >
+                <a class="dropdown-item" href="contact.html"
+                  >&#10023; Direction/Location</a
+                >
+                <a class="dropdown-item" href="contact.html#contact_message"
+                  >&#10023; Message Us</a
+                >
+                <a class="dropdown-item" href="opportunity.html"
+                  >&#10023; Opportunity</a
+                >
+                <a class="dropdown-item" href="donate.html"
+                  >&#10023; Donation</a
+                >
+                <div class="dropdown-divider"></div>
+                <a
+                  class="text-secondary"
+                  href="https://www.facebook.com/RalphBrownCC/"
+                  ><i class="fab fa-facebook-square fa-2x nav-icon"></i
+                ></a>
+                <a
+                  class="text-secondary"
+                  href="https://www.youtube.com/channel/UCsHaOJZ_HgLPu70jaIMXGxQ"
+                  ><i class="fab fa-youtube fa-2x nav-icon"></i
+                ></a>
+                <a
+                  class="text-secondary"
+                  href="https://www.instagram.com/ralphbrowncc/"
+                  ><i class="fab fa-instagram fa-2x nav-icon"></i
+                ></a>
+                <a
+                  class="text-secondary"
+                  href="https://twitter.com/RalphBrownCC/"
+                  ><i class="fab fa-twitter fa-2x nav-icon"></i
+                ></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
+    <main role="main">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>Rentals</h1>
+        </div>
+      </div>
 
-</head>
-<body>
-
-	<header>
-		<nav class="navbar navbar-expand-md navbar-dark shadow">
-			<a class="navbar-brand shadow " href="index.html">
-				<img src="images/logoWhiteV2.png" width="150" height="70" class="rbcc-logo d-inline-block align-top " alt="RBCC Logo">
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownProgram" role="button" aria-haspopup="true" aria-expanded="false">Programs</a>
-						<div class="dropdown-menu" arial-labelledby="navbarDropdownProgram">
-							<a class="dropdown-item" href="program.html">&#10023; Free Play</a>
-							<a class="dropdown-item" href="program.html#gap">&#10023; GAP Inc.</a>
-							<a class="dropdown-item" href="program.html#speak_cree">&#10023; Speak Cree Class</a>
-							<a class="dropdown-item" href="program.html#bike_camp">&#10023; Bike Camp</a>
-							<a class="dropdown-item" href="program.html#skating">&#10023; Skating</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="program.html#calendar_program">Calendar &amp; Events</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link active" href="rental.html">Rentals</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">About Us</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownContact" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
-						<div class="dropdown-menu" arial-labelledby="navbarDropdownContact">
-							<a class="dropdown-item" href="contact.html">&#10023; Direction/Location</a>
-							<a class="dropdown-item" href="contact.html#contact_message">&#10023; Message Us</a>
-							<a class="dropdown-item" href="opportunity.html">&#10023; Opportunity</a>
-							<a class="dropdown-item" href="donate.html">&#10023; Donation</a>
-							<div class="dropdown-divider"></div>
-							<a class="text-secondary" href="https://www.facebook.com/RalphBrownCC/"><i class="fab fa-facebook-square fa-2x nav-icon"></i></a>
-							<a class="text-secondary" href="https://www.youtube.com/channel/UCsHaOJZ_HgLPu70jaIMXGxQ"><i class="fab fa-youtube fa-2x nav-icon "></i></a>
-							<a class="text-secondary" href="https://www.instagram.com/ralphbrowncc/"><i class="fab fa-instagram fa-2x nav-icon"></i></a>
-							<a class="text-secondary" href="https://twitter.com/RalphBrownCC/"><i class="fab fa-twitter fa-2x nav-icon"></i></a>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</nav>
-
-
-	</header>
-
-	<main role="main">
-
-		<div class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<h1>Rentals</h1>
-			</div>
-		</div>
-
-		<h2 class="mini-headings">Browse Gallery</h2>
-		<div class="fotorama margin-bot" data-width="100%" data-height="450" data-nav="thumbs" data-loop="true" data-swipe="true" data-keyboard="true">
-<!--
+      <h2 class="mini-headings">Browse Gallery</h2>
+      <div
+        class="fotorama margin-bot"
+        data-width="100%"
+        data-height="450"
+        data-nav="thumbs"
+        data-loop="true"
+        data-swipe="true"
+        data-keyboard="true"
+      >
+        <!--
 		  <img src="images/hall1.jpg">
 		  <img src="images/hall2.jpg">
 		  <img src="images/hall3.jpg">
 		  <img src="images/hall4.jpg">
 		  <img src="images/hall5.jpg">
 -->
-          <img src="images/rent1.jpg">
-		  <img src="images/rent2.jpg">
-		  <img src="images/rent3.jpg">
-		  <img src="images/rent4.jpg">
-		  <img src="images/rent5.jpg">
-		  <img src="images/rent6.jpg">
-		  <img src="images/rent7.jpg">
-		</div>
+        <img src="images/rent1.jpg" />
+        <img src="images/rent2.jpg" />
+        <img src="images/rent3.jpg" />
+        <img src="images/rent4.jpg" />
+        <img src="images/rent5.jpg" />
+        <img src="images/rent6.jpg" />
+        <img src="images/rent7.jpg" />
+      </div>
 
+      <h2 class="mini-headings margin-top">Multi-Purpose Room Rentals</h2>
 
-		<h2 class="mini-headings margin-top">Multi-Purpose Room Rentals</h2>
+      <div class="container margin-top">
+        <div class="row hall-info">
+          <div class="col-sm-7 margin-bot">
+            <h3>Hall Information</h3>
+            <p>
+              Looking for affordable, fair space to host small events and social
+              gathering such as;
+            </p>
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <ul class="col-sm-4">
+                <li>-Birthday Parties</li>
+                <li>-Bridal Showers</li>
+                <li>-Baby Showers</li>
+                <li>-Sharing Circles</li>
+                <li>-Staff Meetings</li>
+              </ul>
+              <ul class="col-sm-4">
+                <li>-Presentations</li>
+                <li>-Craft Sales</li>
+                <li>-Orientations</li>
+                <li>-Training Sessions</li>
+                <li>-Small Arts/Crafts Exhibit</li>
+              </ul>
+              <div class="col-sm-2"></div>
+            </div>
 
-		<div class="container margin-top">
-			<div class="row hall-info">
-				<div class="col-sm-7 margin-bot">
-					<h3>Hall Information</h3>
-					<p>
-              Looking for affordable, fair space to host small events and social gathering such as;
-          </p>
-                <div class="row">
-                    <div class="col-sm-2"></div>
-                    <ul class="col-sm-4">
-                        <li>-Birthday Parties</li>
-                        <li>-Bridal Showers</li>
-                        <li>-Baby Showers</li>
-                        <li>-Sharing Circles</li>
-                        <li>-Staff Meetings</li>
+            <p class="margin-top">
+              Our hall might be the perfect venue for you. For more information
+              or require tour to our place please call us at
+              <a href="tel:+12045863149">+1(204)586-3149</a> or email us
+              <a href="mailto:manager@ralphbrowncc.com"
+                >manager@ralphbrowncc.com</a
+              >
+            </p>
 
-                    </ul>
-                    <ul class="col-sm-4">
-                        <li>-Presentations</li>
-                        <li>-Craft Sales</li>
-                        <li>-Orientations</li>
-                        <li>-Training Sessions</li>
-                        <li>-Small Arts/Crafts Exhibit</li>
-                    </ul>
-                    <div class="col-sm-2"></div>
-                </div>
+            <hr class="margin-top" />
 
-                <p class="margin-top">
-                    Our hall might be the perfect venue for you. For more information or require tour to our place please call us at <a href="tel:+12045863149">+1(204)586-3149</a> or email us <a href="mailto:manager@ralphbrowncc.com">manager@ralphbrowncc.com</a>
+            <h3>Rental Includes</h3>
 
-                </p>
+            <ul>
+              <li>
+                -Full access to the centre, including kitchen, multi-purpose
+                room, and general area.
+              </li>
+              <li>-Access to chairs and folding tables.</li>
+              <li>
+                -Use of kitchen facilities include fridge, freezer, stove and
+                two open ovens.
+              </li>
+              <li>
+                -Basic cleaning supplies (garbage bags, dish soap, clothes,
+                etc.) will be available.
+              </li>
+              <li>
+                -Bathroom supplies including toilet paper, paper towels and hand
+                soap.
+              </li>
+            </ul>
+            <hr />
 
-                <hr class="margin-top" />
+            <h3>Additional Information</h3>
+            <p>For MPR booking let us know the following;</p>
+            <ul>
+              <li>-Type of event you holding</li>
+              <li>-Your contact information</li>
+              <li>-Date including start time and end time</li>
+              <li>-Number of people attending</li>
+            </ul>
+          </div>
 
-                <h3>Rental Includes</h3>
+          <!--    SideBar and Rental Fees                -->
 
-                <ul>
-                    <li>-Full access to the centre, including kitchen, multi-purpose room, and general area.</li>
-                    <li>-Access to chairs and folding tables.</li>
-                    <li>-Use of kitchen facilities include fridge, freezer, stove and two open ovens.</li>
-                    <li>-Basic cleaning supplies (garbage bags, dish soap, clothes, etc.) will be available.</li>
-                    <li>-Bathroom supplies including toilet paper, paper towels and hand soap.</li>
-                </ul>
-                    <hr />
-
-                    <h3>Additional Information</h3>
-                    <p>
-                        For MPR booking let us know the following;
-                    </p>
-                    <ul>
-                        <li>-Type of event you holding</li>
-                        <li>-Your contact information</li>
-                        <li>-Date including start time and end time </li>
-                        <li>-Number of people attending</li>
-                    </ul>
-
-				</div>
-
-                <!--    SideBar and Rental Fees                -->
-
-				<div class="col-sm-5">
-					<h3>Rent Fees</h3>
-					<ul>
-						<li>
+          <div class="col-sm-5">
+            <h3>Rent Fees</h3>
+            <ul>
+              <li>
                 <h5 class="side-sub-heading">Regular Rental Fee</h5>
-								$25.00 - per hour (with minimum 4 hours) <br />
+                $25.00 - per hour (with minimum 4 hours) <br />
                 $25.00 - for each additional hours
-            </li>
-            <li>
+              </li>
+              <li>
                 <hr />
                 <h5 class="side-sub-heading">Holidays Rental Fee</h5>
                 <h6><i>Including Statutory Holidays</i></h6>
                 $50.00 - per hour (with minimum 4 hours) <br />
                 $25.00 - for each additional hours
-						</li>
-            <li>
+              </li>
+              <li>
                 <hr />
                 <h5 class="side-sub-heading">Refundable Damage Deposit</h5>
                 $100.00 - Deposit <br />
                 - Deducted Damage Fees may apply <br />
-                 For more information check Rental Agreement Terms and Conditions
+                For more information check Rental Agreement Terms and Conditions
                 <i>(Upon Request)</i>
-                Contact: <a href="mailto:manager@ralphbrowncc.com">manager@ralphbrowncc.com</a>
+                Contact:
+                <a href="mailto:manager@ralphbrowncc.com"
+                  >manager@ralphbrowncc.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="feature-divider" />
+
+      <h2 class="mini-headings">Schedule Rent Availability</h2>
+
+      <div class="container">
+        <div class="calendar-rental">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?src=rsddr6902ratll1h5ibd9c9ao8%40group.calendar.google.com&ctz=America%2FWinnipeg"
+            style="border: 0"
+            width="100%"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-social">
+        <h4 class="margin-bot">Follow Us</h4>
+
+        <span>
+          <a href="https://www.facebook.com/RalphBrownCC/"
+            ><i class="fab fa-facebook-square fa-3x"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCsHaOJZ_HgLPu70jaIMXGxQ"
+            ><i class="fab fa-youtube fa-3x"></i
+          ></a>
+          <a href="https://www.instagram.com/ralphbrowncc/"
+            ><i class="fab fa-instagram fa-3x"></i
+          ></a>
+          <a href="https://twitter.com/RalphBrownCC/"
+            ><i class="fab fa-twitter fa-3x"></i
+          ></a>
+        </span>
+      </div>
+
+      <section class="row">
+        <div class="col-md-3 margin-top footer-logo">
+          <a href="http://ralphbrowncc.com"
+            ><img
+              src="images/rbcc_logo.jpg"
+              width="auto"
+              height="190"
+              class="border border-dark shadow rbcc-logo1 margin-top"
+          /></a>
+        </div>
+
+        <div class="col-md-4 footer-contact">
+          <h5>Contact Information</h5>
+          <h6>
+            &#x1F680;
+            <a href="http://ralphbrowncc.com"
+              >Ralph Brown Community Centre Inc.</a
+            >
+          </h6>
+          <ul class="footer-add">
+            <li>
+              &#128205;<a href="https://goo.gl/maps/ZPTuVQyLDAGoE56M7">
+                520 Machray Avenue</a
+              >
             </li>
-					</ul>
-				</div>
-			</div>
+            <li>&#128506; Winnipeg, MB</li>
+            <li>&#127758; R2W 4Y1, Canada</li>
+            <li>&phone;<a href="tel:+12045863149">+1(204)586-3149</a></li>
+            <li>
+              &#9993;<a href="mailto:manager@ralphbrowncc.com"
+                >manager@ralphbrowncc.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2 footer-sites">
+          <h5>Links</h5>
+          <ul class="footer-links">
+            <li>&#128204;<a href="index.html"> Home</a></li>
+            <li>&#128204;<a href="program.html"> Programs</a></li>
+            <li>&#128204;<a href="rental.html"> Rentals</a></li>
+            <li>&#128204;<a href="about.html"> About Us</a></li>
+            <li>&#128204;<a href="contact.html"> Contact Us</a></li>
+            <li>
+              &#128204;<a href="program.html#calendar_program">
+                News &amp; Events</a
+              >
+            </li>
+            <li>&#128204;<a href="donate.html"> Donation</a></li>
+            <li>&#128204;<a href="opportunity.html"> Opportunity</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Message Us</h5>
+          <p>
+            Please send an email to
+            <a href="mailto:manager@ralphbrowncc.com"
+              >manager@ralphbrowncc.com</a
+            >
+            or contact us
+            <a href="https://www.facebook.com/RalphBrownCC/">on Facebook</a>
+          </p>
+        </div>
+      </section>
 
-		</div>
-			<hr class="feature-divider">
+      <section>
+        <hr />
+        <div class="cRight">
+          Copyright &copy; 2019 by <a href="index.html">RalphBrownCC</a> All
+          right reserved.
+        </div>
+      </section>
+    </footer>
 
-
-			<h2 class="mini-headings">Schedule Rent Availability</h2>
-
-		<div class="container">
-			<div class="calendar-rental">
-				<iframe src="https://calendar.google.com/calendar/embed?src=rsddr6902ratll1h5ibd9c9ao8%40group.calendar.google.com&ctz=America%2FWinnipeg" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
-			</div>
-		</div>
-
-
-	</main>
-
-	<footer>
-		<div class="footer-social">
-			<h4 class="margin-bot">Follow Us</h4>
-
-				<span>
-					<a href="https://www.facebook.com/RalphBrownCC/"><i class="fab fa-facebook-square fa-3x"></i></a>
-					<a href="https://www.youtube.com/channel/UCsHaOJZ_HgLPu70jaIMXGxQ"><i class="fab fa-youtube fa-3x"></i></a>
-					<a href="https://www.instagram.com/ralphbrowncc/"><i class="fab fa-instagram fa-3x"></i></a>
-					<a href="https://twitter.com/RalphBrownCC/"><i class="fab fa-twitter fa-3x"></i></a>
-				</span>
-		</div>
-
-
-		<section class="row">
-			<div class="col-md-3 margin-top footer-logo">
-				<a href="http://ralphbrowncc.com"><img src="images/rbcc_logo.jpg" width="auto" height="190" class="border border-dark shadow rbcc-logo1 margin-top"></a>
-			</div>
-
-			<div class="col-md-4 footer-contact">
-				<h5>Contact Information</h5>
-				<h6>&#x1F680; <a href="http://ralphbrowncc.com">Ralph Brown Community Centre Inc.</a></h6>
-				<ul class="footer-add">
-					<li>&#128205;<a href="https://goo.gl/maps/ZPTuVQyLDAGoE56M7"> 520 Machray Avenue</a></li>
-					<li>&#128506; Winnipeg, MB</li>
-					<li>&#127758; R2W 4Y1, Canada</li>
-					<li>&phone;<a href="tel:+12045863149">+1(204)586-3149</a></li>
-					<li>&#9993;<a href="mailto:manager@ralphbrowncc.com">manager@ralphbrowncc.com</a></li>
-				</ul>
-
-			</div>
-			<div class="col-md-2 footer-sites">
-				<h5>Links</h5>
-				<ul class="footer-links">
-					<li>&#128204;<a href="index.html"> Home</a></li>
-					<li>&#128204;<a href="program.html"> Programs</a></li>
-					<li>&#128204;<a href="rental.html"> Rentals</a></li>
-					<li>&#128204;<a href="about.html"> About Us</a></li>
-					<li>&#128204;<a href="contact.html"> Contact Us</a></li>
-					<li>&#128204;<a href="program.html#calendar_program"> News &amp; Events</a></li>
-					<li>&#128204;<a href="donate.html"> Donation</a></li>
-					<li>&#128204;<a href="opportunity.html"> Opportunity</a></li>
-					<li>&#128204;<a href="#"> Site Map</a></li>
-				</ul>
-
-			</div>
-			<div class="col-md-3">
-				<h5>Message Us</h5>
-				<p>Please send an email to <a href="mailto:manager@ralphbrowncc.com">manager@ralphbrowncc.com</a> or contact us <a href="https://www.facebook.com/RalphBrownCC/">on Facebook</a></p>
-			</div>
-
-		</section>
-
-		<section>
-
-			<hr/>
-			<div class="cRight">
-				Copyright &copy; 2019 by <a href="index.html">RalphBrownCC</a> All right reserved.
-			</div>
-		</section>
-
-	</footer>
-
-
-	<!-- Optional JavaScript -->
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
