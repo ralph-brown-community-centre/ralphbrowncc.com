@@ -156,7 +156,7 @@ img.rbcc-logo {
 }
 
 .service p {
-  color: #019649;
+  color: #fff;
 }
 
 .service.col-lg-4 p {
@@ -440,10 +440,6 @@ button.footer-button {
 }
 
 /* About Page */
-
-.aboutUs-info p {
-  color: #019649;
-}
 
 .member {
   text-align: center;
