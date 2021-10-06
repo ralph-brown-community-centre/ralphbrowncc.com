@@ -451,7 +451,7 @@ button.footer-button {
 
 .member p,
 .member ul li {
-  color: #019649;
+  color: #ddd;
 }
 
 #partners {
@@ -564,7 +564,7 @@ h6 {
 main {
   /*padding-top: 3rem;*/
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #fff;
 }
 
 ul {
