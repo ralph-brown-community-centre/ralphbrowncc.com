@@ -93,7 +93,8 @@ img.rbcc-logo {
 .carousel-item {
   height: 32rem;
 }
-.carousel-item > img {
+
+.carousel-item>img {
   /*position: absolute;*/
   top: 0;
   left: 0;
@@ -150,6 +151,7 @@ img.rbcc-logo {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .service h2 {
   font-weight: 400;
   color: #d1a100;
@@ -176,7 +178,8 @@ img.rbcc-logo {
 /* Feature Section Style */
 
 .feature-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
 }
 
 .feature {
@@ -572,19 +575,14 @@ ul {
   margin: 0px;
 }
 
-ul li {
-  list-style: none;
-}
 
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    #d1a100,
-    rgba(0, 0, 0, 0)
-  );
+  background-image: linear-gradient(to right,
+      rgba(0, 0, 0, 0),
+      #d1a100,
+      rgba(0, 0, 0, 0));
 }
 
 hr:after {
@@ -623,6 +621,7 @@ hr:after {
 /********* MOBILE SIZE **************/
 
 @media (max-width: 768px) {
+
   .navbar,
   .navbar-brand,
   button.navbar-toggler {
@@ -666,6 +665,7 @@ hr:after {
   .carousel-caption h6 {
     font-size: 1em;
   }
+
   .carousel-caption p {
     font-size: 1em;
   }
